@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+//Ver 1.1 by Marshmallow
 void fudu(void);
 int main(void)
 {

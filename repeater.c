@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 void fudu(void);
 int main(void)
 {
@@ -9,7 +10,8 @@ int main(void)
     while (1)
     {
        fudu();
-       power=power-(rand()%100+1)/100;
+       srand((unsigned)time(0));
+       power=power-(rand()%100+1)/10;
        if (power<1)
        {
             printf("复读机低电量！要充电吗？（输入0不充电）\n");

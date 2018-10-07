@@ -4,3 +4,6 @@
 v1.0 初始
 
 v1.1 重新安排上了rand随机减少电量
+
+##laopo
+![Files](https://github.com/xiongnemo/repeater/hitomi.png)
